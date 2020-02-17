@@ -1,14 +1,3 @@
-server:
-  port: 6001
-eureka:
-  client:
-    service-url:
-      defaultZone:  http://localhost:5001/eureka/
-  instance:
-    #  显示ip
-    prefer-ip-address: true
-    #  Status显示名
-    instance-id: springcloud_provider_6001
 spring:
   application:
     # Application名称

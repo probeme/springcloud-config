@@ -16,3 +16,11 @@ eureka:
 spring:
   application:
     name: eureka-server
+    cloud:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/probeme/springcloud-config.git # GitHub上的Git仓库地址
+          username: 1025037648@qq.com # git账号
+          password: wangbin1994214  # git密码
